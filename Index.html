@@ -1,0 +1,110 @@
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    .col-9 {
+        padding-left: 20%;
+        color: aliceblue;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 30px;
+    }
+
+    body {
+        background-image: url("images/7fe774bbacce09f00cb5b2e3cbc48db3.png");
+        background-size: 110%;
+        background-repeat: no-repeat;
+
+    }
+
+    span {
+        color: rgb(0, 189, 41);
+        font-family: Goudy Old Style;
+        font-size: 100%;
+    }
+
+    .kavin {
+        color: rgb(255, 255, 0);
+        margin: 2%;
+        font-family: Castellar;
+    }
+
+    .fa {
+        color: rgb(254, 254, 254);
+    }
+
+    h4 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .nav {
+        padding-right: 30%;
+    }
+
+    h6 {
+        font-size: 400%;
+        font-family: Algerian;
+        padding-top: 2%;
+    }
+
+    .dark-mode {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+    }
+</style>
+
+<body>
+    <marquee behavior="scroll" direction="right" scrollamount="20">
+        <h6>perfect coder</h6>
+    </marquee>
+
+    <div class="container"><br>
+        <div class="row">
+            <div class="col-3">
+                <h1></h1><br> <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_rMKAwk6Fiv.json"
+                    background="transparent" speed="1" style="width: 600px; height: 500px;" loop
+                    autoplay></lottie-player>
+            </div>
+            <div class="col-9">
+
+                <h1><br><b>Hi! I am <span>Kavin raj...</span>&nbsp;&nbsp;&nbsp;A web Designer...</h1><br>
+                <h4>I am a web designer, I love to create a beautiful and functional web pages. My mission is to design
+                    and develop a website that you and your audience love.</h4><br>What do you want to
+                know?<br><span>Lets go!!!</span><br>
+                <br>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a href="me.html"><button class="btn btn-outline-success"><i class="fa fa-user-circle"
+                                    aria-hidden="true">&nbsp;&nbsp;About</i></button></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </li>
+                    <li class="nav-item">
+                        <a href="skill.html"><button class="btn btn-outline-success"><i class="fa fa-apple"
+                                    aria-hidden="true">&nbsp;&nbsp;Skill</i></button></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </li>
+                    <li class="nav-item">
+                        <a href="project.html"><button class="btn btn-outline-success"><i class="fa fa-paper-plane"
+                                    aria-hidden="true">&nbsp;&nbsp;project</i></button></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html"><button class="btn btn-outline-success"><i class="fa fa-envelope"
+                                    aria-hidden="true">&nbsp;&nbsp;Contact</i></button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <button onclick="myFunction()">theme</button>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+
+</html>
